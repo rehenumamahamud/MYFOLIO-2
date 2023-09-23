@@ -1,0 +1,235 @@
+/* Common Css Start */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.text-center{
+    text-align: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.section_info h2{
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+    text-transform: uppercase;
+    margin-top: 98px;
+}
+.section_info p{
+    font-size: 16px;
+    line-height: 41px;
+    color: #7e8287;
+}
+/* Common Css End */
+
+/* Nav Section Css Start */
+nav {
+    background-color: #02918c;
+}
+
+nav ul {
+    list-style-type: none;
+}
+nav ul li a {
+    display: inline-block;
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 26px 25.5px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    transition: 0.6s;
+}
+nav ul li a:hover {
+    color:black;
+}
+/* Nav Section Css End */
+/* Banner Section Css Start */
+#banner{
+    padding: 210px 0;
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    color: #ffffff;
+    
+    
+}
+#banner h4{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 25px;
+}
+#banner h1{
+    font-size: 68px;
+    line-height: 75px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 30px;
+}
+#banner p{
+    font-size: 18px;
+    line-height: 33px;
+}
+#banner img{
+    margin: 52px 0;
+}
+#banner a{
+    display: block;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 30px;
+    color: #0b1016;
+    background-color: #cfc91d;
+    width: fit-content;
+    padding: 10px 43px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 auto;
+    letter-spacing: 3px;
+}
+/* Banner Section Css End */
+/* About Section Css Start */
+#about .section_info p{
+    padding: 0 140px;
+}
+#about .section_info p b{
+    font-size: 23px;
+    font-weight: 800;
+}
+#about .about_item_container .about_item{
+    width: 25%;
+    padding: 37px 65px;
+    margin-top: 80px;
+    border-right: 1px solid #d9dbdb;
+}
+#about .about_item_container .about_item:last-child{
+   border-right-color: transparent;
+}
+/* About Section Css End */
+/* services section Css Start */
+
+#services{
+    background-image: url(./img/searchbackground.jpg);
+    background-size:cover;
+    background-position:center;
+}
+#services .inner_container{
+    width: 50%;
+}
+#services .services_item{
+    height: 50%;
+}
+#services .section_info h2{
+    padding-top: 70px;
+}
+#services .services_item{
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+}
+/* services section Css End */
+
+/* My Work Section Css Start */
+#mywork .section_info p{
+    padding: 0 256px;
+}
+#mywork .mywork_item{
+    width: 25%;
+    position: relative;
+}
+#mywork .mywork_item img{
+    width: 100%;
+    display: block;
+    
+}
+#mywork .section_info p{
+    margin-bottom: 50px;
+    
+}
+#mywork .mywork_info{
+    position: absolute;
+    z-index: 1;
+    background-color: #02918c;
+    inset: 20px 28px; 
+    padding: 15px;
+    text-align: center;
+    transition: 1s;
+    transform: scale(0) rotate(20deg);
+    transform-origin: left top;
+}
+#mywork .mywork_item:hover .mywork_info{
+    transform: scale(1) rotate(0deg);
+    transform-origin: left top;
+
+}
+/* My Work Section Css End */
+
+/* Contact Section Css Start */
+#contact .contact_form{
+    background-color: #0b0b0b;
+    padding: 70px 0;
+}
+#contact .contact_form input{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 36px;
+    font-size: 16px;
+    color: #7e8287;
+    background: none;
+    padding: 18px;
+    border: none;
+    border-bottom: 1px solid #898989;
+}
+#contact .contact_form input.sm{
+    width: 637px;
+}
+#contact .contact_form input.lg{
+    width: 920px;
+}
+#contact .contact_form button{
+    display: block;
+    margin: 0 auto;
+    font-weight: 800;
+    font-size: 14px;
+    line-height:29px;
+    display: block;
+    background-color: #cfc91d;
+    width: fit-content;
+    padding: 8px 42px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #0b1016;
+}
+
+
+/* Contact Section Css End */
+
+/* footer Section Css start */
+footer p{
+    padding: 30px 0;
+    background-color: #000000;
+    color: #66696e;
+
+}
+/* footer Section Css End */
+
